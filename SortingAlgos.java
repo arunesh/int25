@@ -1,7 +1,7 @@
 
 
 
-public class Quicksort{
+public class SortingAlgos{
 
   public static void printArray(String title, int[] r) {
     System.out.println(title);

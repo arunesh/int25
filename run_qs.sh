@@ -1,4 +1,4 @@
 #!/bin/bash
 #
-javac Quicksort.java
-java Quicksort
+javac SortingAlgos.java
+java SortingAlgos 
