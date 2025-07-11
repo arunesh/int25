@@ -50,10 +50,10 @@ public class SortingAlgos{
     for (int i = 1; i < items.length; i ++) {
       int key = items[i];
 
-      j = i - 1;
-      while (items[j] > key) {
+      int j = i - 1;
+      while (j>=0 && items[j] > key) {
         if (items[j] > key) {
-          items[j+1] = items[j]
+          items[j+1] = items[j];
         }
         j --;
       }
@@ -141,5 +141,6 @@ public class SortingAlgos{
     int[] arr = {5, 0, 23, 3, 8, 55, 30, 99, 70, 2};
     // bubbleSort(arr);
     insertionSort(arr);
+    System.out.println("Is Sorted = " + isSorted(arr));
   }
 }

@@ -1,4 +1,4 @@
 #!/bin/bash
 #
-javac SortingAlgos.java
-java SortingAlgos 
+javac SortingAlgos.java 
+java  SortingAlgos
